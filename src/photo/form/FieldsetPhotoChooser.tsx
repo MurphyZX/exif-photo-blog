@@ -133,6 +133,7 @@ export default function FieldsetPhotoChooser({
               <BiChevronRight
                 size={18}
                 className={clsx(
+                  'text-dim',
                   'transition-transform ',
                   isOpen && 'rotate-90',
                 )}
